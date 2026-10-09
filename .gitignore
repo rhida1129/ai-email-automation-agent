@@ -1,0 +1,30 @@
+﻿# Secrets and local configuration
+.env
+.env.*
+!.env.example
+client_secret.json
+token.json
+gmail_read_token.json
+*token*.json
+
+# Private email data and databases
+email_cache.db
+email_cache*.db
+email_cache_backup_*.db
+*.sqlite
+*.sqlite3
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.log
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+gmail_reader.py.body_extractor_backup
